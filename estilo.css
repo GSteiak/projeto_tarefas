@@ -64,3 +64,12 @@ button {
     background-color: red;
     font-size: 1em;
 }
+
+.desativado {
+    background-color: gray !important;
+}
+
+.container-botoes {
+    display: flex;
+    gap: 5px;
+}

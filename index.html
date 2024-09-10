@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Tarefas</title>
     <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <main>
         <form>
-            <input type="text" />
-            <button class="botao-adicionar">+</button>
+            <input type="text" id="input-novo-item"/>
+            <button disabled class="botao-adicionar desativado">+</button>
         </form>
         
         <ul>
             <li>
                 <input value="Estudar JS" disabled type="text">
-                <div>
+                <div class="container-botoes">
                     <button class="botao-editar">Editar</button>
                     <button class="botao-apagar">Apagar</button>
                 </div>
