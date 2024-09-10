@@ -69,7 +69,26 @@ button {
     background-color: gray !important;
 }
 
-.container-botoes {
+.container-botoes-editar-apagar {
     display: flex;
     gap: 5px;
+}
+
+.botao-salvar {
+    background-color: green;
+    font-size: 1em;
+}
+
+.botao-cancelar {
+    background-color: red;
+    font-size: 1em;
+}
+
+.container-botoes-salvar-cancelar {
+    display: flex;
+    gap: 5px;
+}
+
+.esconder-botoes {
+    display: none !important;
 }
